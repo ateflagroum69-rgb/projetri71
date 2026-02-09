@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="testbs.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="testbs.html">
+            <img
+              src="./photo td4/ufc-logo-red-png.png"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li id="li-cate" class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="testbs.html"
+                  >Accueil</a
+                >
+              </li>
+              <li id="li-cate" class="nav-item">
+                <a class="nav-link" href="COMBAT.html">Combat</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="categorie.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Catégorie
+                </a>
+                <ul class="dropdown-menu">
+                  <li id="li-cate">
+                    <a class="dropdown-item" href="halloffame.html"
+                      >Hall of fame</a
+                    >
+                  </li>
+                  <li id="li-cate">
+                    <a class="dropdown-item" href="record.html">records</a>
+                  </li>
+                </ul>
+              </li>
+              <li id="li-cate" class="nav-item">
+                <a class="nav-link" href="ranking.html">Ranking</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="hof">
+        <img src="hall of fame/HOF_LOGO_EVERGREEN_V2.png" alt="" />
+      </div>
+      <br />
+      <!--section 1-->
+      <section>
+        <h1
+          style="color: rgb(210, 174, 75); background-color: rgb(0, 0, 0)"
+          class="text-center"
+        >
+          Aile Moderne
+        </h1>
+        <p
+          style="background-color: rgb(210, 174, 75); color: rgb(0, 0, 0)"
+          class="text-center"
+        >
+          Chasseurs ayant fait leurs débuts à l'ère moderne, le 17 novembre 2000
+          ou après
+        </p>
+        <br />
+        <div class="row row-cols-2 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/Robbie Lawler-HOF-Ceremony-GettyImages-2222342582.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Robbie Lawler</h5>
+                <p class="card-text">
+                  Fort d'une carrière de 22 ans en MMA et de 47 combats à son
+                  actif, Lawler affiche un palmarès de 30 victoires, 16 défaites
+                  et 1 sans décision (19-15 à l'UFC, au PRIDE et au
+                  Strikeforce). Il a notamment vaincu des figures emblématiques
+                  telles que Donald Cerrone (membre du Hall of Fame de l'UFC),
+                  Frank Trigg (Fight Wing), l'ancien champion des poids welters
+                  de l'UFC Johny Hendricks, l'ancien champion intérimaire des
+                  poids welters de l'UFC Carlos Condit, l'ancien champion des
+                  poids welters du Strikeforce et du WEC Nick Diaz, et l'ancien
+                  champion des poids mi-lourds du WEC Scott Smith. Lawler est
+                  devenu champion des poids welters de l'UFC en 2014, après sa
+                  victoire face à Johnny Hendricks lors de leur revanche très
+                  attendue à l'UFC 181. Son statut de légende s'est confirmé
+                  lors de ses deux combats suivants, puisqu'il a défendu son
+                  titre des poids welters contre Rory MacDonald et Carlos Condit
+                  à l'UFC 189 (2015) et à l'UFC 195 (2016). Ces deux combats
+                  furent de véritables guerres en cinq rounds, récompensées par
+                  le titre de Combat de l'Année décerné par plusieurs médias. En
+                  2023, son combat contre MacDonald à l'UFC 189 fut intronisé au
+                  Temple de la renommée de l'UFC (section Combat). Au cours de
+                  sa carrière, il a également remporté sept victoires par KO et
+                  porté plus de 1 200 coups significatifs chez les poids
+                  welters.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/Amanda Nunes-Hall-of-Fame-GettyImages-2222342387.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Amanda Nunes</h5>
+                <p class="card-text">
+                  Forte de 28 combats en 15 ans de carrière professionnelle en
+                  MMA, Nunes affiche un palmarès de 23 victoires pour 5 défaites
+                  (17-3 à l'UFC/Strikeforce). Elle a notamment vaincu Ronda
+                  Rousey, membre du Hall of Fame de l'UFC, Valentina Shevchenko
+                  (à deux reprises), championne des poids mouches de l'UFC,
+                  Julianna Peña, championne des poids coqs de l'UFC, Germaine de
+                  Randamie (à deux reprises) et Cris Cyborg, anciennes
+                  championnes des poids plumes de l'UFC, ainsi que Miesha Tate,
+                  Holly Holm et Raquel Pennington, anciennes championnes des
+                  poids coqs de l'UFC. -Elle est la première femme à être
+                  devenue championne dans deux catégories de poids et à détenir
+                  simultanément les titres UFC des poids coqs et des poids
+                  plumes. Plus longue série de victoires de l'histoire de l'UFC
+                  féminine : 12 -Plus grand nombre de victoires en combats de
+                  championnat de l'histoire de l'UFC féminine : 11 (4e ex æquo)
+                  -Plus grand nombre de victoires avant la limite de l'histoire
+                  de l'UFC féminine : 10 -Plus grand nombre de victoires avant
+                  la limite du premier round de l'histoire de l'UFC féminine : 9
+                  -Plus grand nombre de knockdowns de l'histoire de l'UFC
+                  féminine: 8 -Plus grand nombre de KO de l'histoire de l'UFC
+                  féminine: 7 -Deuxième plus grand nombre de victoires de
+                  l'histoire de l'UFC féminine : 16 (Jessica Andrade, 17)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/Shogun Rua.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Shogun Rua</h5>
+                <p class="card-text">
+                  A veteran of 42 fights during his 21-year professional MMA
+                  career, Rua registered a record of 27-14-1 (23-13-1 – UFC /
+                  PRIDE), securing notable wins over UFC Hall of Famers Mark
+                  Coleman, Chuck Liddell, Kevin Randleman, and Forrest Griffin,
+                  former UFC light heavyweight champions Quinton “Rampage”
+                  Jackson and Lyoto Machida, and former Strikeforce® heavyweight
+                  champion Alistair Overeem. Outside the Octagon, Rua has won
+                  several awards during his career, receiving Knockout of the
+                  Year honors in 2010 during the Fighters Only World MMA Awards
+                  for his bout against Lyoto Machida at UFC 113. In 2005, he
+                  received Fight of the Year for his bout against Antonio
+                  Rogerio Nogueira at PRIDE FC: Critical Countdown 2005. UFC
+                  Light Heavyweight champion (2010-2011) 2005 Pride Middleweight
+                  Grand Prix champion 8 post-fight bonuses (second-most in UFC
+                  light heavyweight history)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/Joanna Jędrzejczyk.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Joanna Jędrzejczyk</h5>
+                <p class="card-text">
+                  A veteran of 21 fights during her 10-year professional MMA
+                  career, Joanna compiled a record of 16-5 (10-5 UFC), securing
+                  victories over former UFC strawweight champions Carla Esparza
+                  and Jessica Andrade. She is the second female inductee in UFC
+                  history and first from the strawweight division. Outside the
+                  Octagon, Joanna has been honored with numerous awards
+                  throughout her career, receiving Female Fighter of the Year in
+                  2015 by MMA Junkie. Joanna’s unforgettable 2020 fight against
+                  then-UFC strawweight champion Zhang Weili during UFC 248 won
+                  Fight of the Year honors from MMA Junkie, MMA Fighting, BT
+                  Sport, The Athletic, and the Fighters Only World MMA Awards. A
+                  native of Olsztyn, Poland, Joanna began competing in Muay Thai
+                  at the age of 16. She competed in 40 amateur Muay Thai fights,
+                  compiling a 37-3 record before turning pro. Her only three
+                  losses were to future UFC flyweight champion Valentina
+                  Shevchenko. As an amateur, she captured four consecutive gold
+                  medals (2009-13) and a silver medal (2008) during the IFMA
+                  World Championships. As a professional Muay Thai and
+                  kickboxer, she fought in 31 matches, registering a 27-3 record
+                  with one draw, and became the World Kickboxing Federation’s
+                  European champion in 2010. A philanthropist in her native
+                  Poland, Joanna is an ambassador for several children’s
+                  hospitals and food banks, raising funds and awareness for
+                  families in need. UFC strawweight champion (2015-2017) First
+                  female European UFC champion First Polish UFC champion 6 Title
+                  Fight Wins (Most in UFC strawweight history)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 2-->
+      <section>
+        <br />
+        <div class="row row-cols-2 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/Frankie Edgar.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Frankie Edgar</h5>
+                <p class="card-text">
+                  Before the world knew who Frankie Edgar was, the former UFC
+                  lightweight champion was just another kid from Jersey with
+                  dreams of making a living as a prizefighter. Those dreams took
+                  him to the Jerome Boxing Club in the Bronx in July of 2005,
+                  where the 23-year-old was going to compete in a mixed martial
+                  arts fight that bore little resemblance to the ones he would
+                  experience inside the UFC. MMA wasn’t even sanctioned in New
+                  York, leading to underground shows. For those who stepped into
+                  the ring, it wasn’t about money or championship belts, it was
+                  all about the fight. So Edgar packed his mouthpiece and took
+                  the drive from Toms River with his team and his father, as
+                  well as his future wife Renee, on a journey that would see him
+                  becoming a world champion and legend of the sport. UFC
+                  Lightweight Champion (2010-2012) 8 Fight of the Night Bonuses
+                  (Second-most in UFC history) 7:57:10 Total Fight Time
+                  (Second-most in UFC history)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/José Aldo.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">José Aldo</h5>
+                <p class="card-text">
+                  José Aldo is the greatest featherweight of all time. From WEC
+                  to UFC, Jose helped us build the sport of MMA and UFC as a
+                  brand, as well as change the perception of the smaller weight
+                  classes and what they could accomplish inside the Octagon. -
+                  Dana White Inducted July 2023 Two-time UFC Featherweight
+                  Champion (2010-2015, 2016-2017) WEC Featherweight Champion
+                  (2008-2010) 7 successful featherweight title defenses (most in
+                  UFC history)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/Donald Cerrone.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Donald Cerrone</h5>
+                <p class="card-text">
+                  Donald "Cowboy" Cerrone was a unique personality, a permanent
+                  fixture on the main card and in the Top 15, and a perpetually
+                  entertaining fighter who really and truly was willing to fight
+                  anyone, anywhere, at any time. He was one of a kind. Inducted
+                  July 2023 38 UFC Fights 18 Post-Fight Bonuses (tied for most
+                  in UFC history) 23 Wins (tied for second-most in UFC history)
+                  16 Finishes (tied for second-most in UFC history)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/Khabib Nurmagomedov.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Khabib Nurmagomedov</h5>
+                <p class="card-text">
+                  It didn’t take long for Nurmagomedov to become the world’s
+                  best. By 2018, he was a world champion and a little over two
+                  years later, the question wasn’t whether he was the best
+                  lightweight in the world, but if he was the best to ever strap
+                  on the four-ounce gloves. While some competitors like the pomp
+                  and circumstance that goes along with a big fight, relish the
+                  trash talk and the gladiatorial sense of it all, Khabib
+                  Nurmagomedov just wanted to win, represent his team, and make
+                  his father proud. Inducted July 2022 UFC Lightweight Champion
+                  (2018-2021) Retired undefeated (29-0) 2021 ESPY Winner – Best
+                  MMA Fighter
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 3-->
+      <section>
+        <br />
+        <div class="row row-cols-2 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/Daniel Cormier.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Daniel Cormier</h5>
+                <p class="card-text">
+                  Daniel Cormier is one of the few fighters to earn double champ
+                  status within the UFC Octagon, claiming belts in both the
+                  light heavyweight and heavyweight division. Cormier
+                  successfuly defended the light heavyweight title three times,
+                  defeating Anthony 'Rumble' Johnson and Alexander Gustaffson.
+                  He defeated Stipe Moicic at UFC 226 to win the heavyweight
+                  title and successfully defended it once against Derrick Lewis.
+                  Cormier is the first fighter to defend titles in two weight
+                  classes and succeed. The Louisana native retired in 2020 and
+                  was inducted into the UFC Hall of Fame in July 2022. Inducted
+                  July 2022 UFC Heavyweight Champion (2018-2019) UFC Light
+                  Heavyweight Champion (2015-2018) Two-time US Olympian
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/Georges St-Pierre.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Georges St-Pierre</h5>
+                <p class="card-text">
+                  Both in and out of the Octagon, Georges St-Pierre was a clear
+                  pick for the UFC Hall of Fame, and as the dust has settled on
+                  his time as an active fighter, the never-ending debate has
+                  kicked up again, with fans and pundits arguing about who the
+                  greatest mixed martial artist of all-time is. It’s impossible
+                  to have that debate without St-Pierre in the conversation, and
+                  as the years go by, his case gets stronger and stronger. A
+                  veteran of 28 fights during his 17-year career, St-Pierre
+                  compiled a record of 26-2 (20-2, UFC), which included wins
+                  over UFC Hall of Famers BJ Penn, Matt Hughes, Matt Serra and
+                  Michael Bisping. Inducted September 2021 UFC Middleweight
+                  Champion (2017) Two-time UFC welterweight champion (2006-2007,
+                  2008-2013) Three-time Canadian Athlete of the Year (2008,
+                  2009, 2010)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/Rashad Evans.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rashad Evans</h5>
+                <p class="card-text">
+                  Rashad Evans was a trailblazer as one of the most successful
+                  Black athletes in the early years of UFC. During his storied
+                  career from 2005 through 2018 in UFC, Evans held a 14-8-1
+                  record, earning wins against fellow legends of the sport along
+                  the way. Evans won the second season of The Ultimate Fighter,
+                  defeating Brad Imes in the finale. At UFC 92 in 2008, he
+                  defeated Forrest Griffin to win the light heavyweight
+                  championship. Inducted July 2019 UFC Light Heavyweight
+                  Champion (2008-2009) The Ultimate Fighter Season Two Winner
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/Michael Bisping.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Michael Bisping</h5>
+                <p class="card-text">
+                  From the early days of The Ultimate Fighter, it was clear that
+                  Michael Bisping was a fighters fighter. "The Count" was an
+                  all-action athlete both in the Octagon, on the mic, and on
+                  screen. He became the first British fighter to become a UFC
+                  champion and his epic bouts will live on forever in the UFC
+                  Hall of Fame. Inducted July 2019 UFC Middleweight Champion
+                  (2016-2017) The Ultimate Fighter Season Three Winner Pioneer
+                  of UK MMA
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 4-->
+      <section>
+        <br />
+        <div class="row row-cols-2 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/Ronda Rousey.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ronda Rousey</h5>
+                <p class="card-text">
+                  Very few names in MMA have transcended the sport quite like
+                  “Rowdy” Ronda, a true trailblazer for woman in combat sports.
+                  Even after her fighting career came to an end, Rousey made
+                  history by becoming the first woman to be inducted into the
+                  UFC Hall of Fame. Rousey has continued to entertain fans since
+                  retiring by transitioning to acting and professional
+                  wrestling. And she continued to make history by competing in
+                  the first women’s match to headline a Wrestlemania event.
+                  Learn more about this pioneering figure in mixed martial arts.
+                  Inducted July 2018 First-ever women’s UFC champion UFC
+                  Bantamweight Champion (2012-2015)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/Urijah Faber.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Urijah Faber</h5>
+                <p class="card-text">
+                  Urijah Faber's legacy can’t be reduced to wins and losses,
+                  though he did defeat the likes of Dominick Cruz, Jeff Curran,
+                  Jens Pulver, Raphael Assuncao, Eddie Wineland and Brian
+                  Bowles. A former WEC featherweight champion from 2006 to 2008,
+                  he engaged in SuperFights with Pulver, Cruz, Jose Aldo, Renan
+                  Barao and Frankie Edgar, and established himself as one of the
+                  best of this era. Yet what Faber should be remembered for most
+                  is his efforts in exposing the lighter weight classes to the
+                  United States audience. As WEC champion after the Zuffa
+                  purchase of the promotion, Faber was the one primarily tasked
+                  with talking with the media, making appearances, and then
+                  stepping into the cage on fight night and wrecking hungry
+                  challengers. It was a successful mission, one he shouldered
+                  throughout his career. Inducted July 2017 WEC Featherweight
+                  Champion (20
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/BJ Penn.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">BJ Penn</h5>
+                <p class="card-text">
+                  There’s just something about BJ Penn that gets people amped
+                  up. You don’t know what’s gonna happen, but something’s gonna
+                  happen though. He might disappoint you, he might make you
+                  happy, he might make you cry, he might make you jump out of
+                  your chair, but he’ll do something to you. Inducted July 2015
+                  UFC Welterweight Champion (2004) UFC Lightweight Champion
+                  (2008-2010)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="hall of fame/Forrest Griffin.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Forrest Griffin</h5>
+                <p class="card-text">
+                  The beauty of Forrest Griffin is that he doesn’t put too much
+                  stock in drama, but he’s been a part of so many dramatic
+                  moments in the UFC Octagon. His epic three round battle
+                  against Stephan Bonnar in the first TUF finale in April of
+                  2005 put mixed martial arts on the map. He isn’t prone to
+                  waxing poetically about the emotional highs and lows of life
+                  in the fight game, yet he’s worn his heart on his sleeve and
+                  bared himself to the world on a more than a few occasions. And
+                  that’s fine, considering that when the bell rang, he wasn't
+                  holding anything back. He is as raw as it gets in this sport,
+                  and while raw isn’t always pretty, there is something so
+                  compelling and pure about it that we can’t turn away. Inducted
+                  July 2013 UFC Light Heavyweight Champion (2008) The Ultimate
+                  Fighter Season One Winner
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="main-footer">
+        <h3>Contact</h3>
+        <div id="contact">
+            <a target="_blank"href="https://www.instagram.com/actumma/">
+                <img src="./photo p1/instagram.png" alt="logo insta">
+            </a>
+            <a target="_blank" href="https://x.com/actu_mma">
+                <img src="./photo p1/twitter.png" alt="logo twitter">
+            </a>
+            <a target="_blank" href="https://www.facebook.com/actummafrance/">
+                <img src="./photo p1/facebook.png" alt="logo facebook">
+            </a>
+            <a target="_blank" href="mailto:actumma@gmail.com">
+                <img src="./photo p1/email.png "alt="logo mail">
+            </a>
+           
+        </div>
+       
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

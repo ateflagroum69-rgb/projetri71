@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="testbs.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="testbs.html">
+            <img
+              src="./photo td4/ufc-logo-red-png.png"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li id="li-cate" class="nav-item">
+                <a class="nav-link active" aria-current="page" href="testbs.html"
+                  >Accueil</a
+                >
+              </li>
+              <li id="li-cate" class="nav-item">
+                <a class="nav-link ml-2" href="COMBAT.html">Combat</a>
+              </li>
+              <li  class="nav-item dropdown">
+                <a 
+                  class="nav-link dropdown-toggle"
+                  href="categorie.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Catégorie
+                </a>
+                <ul class="dropdown-menu">
+                  <li id="li-cate"><a class="dropdown-item" href="halloffame.html">Hall of fame</a></li>
+                  <li id="li-cate"><a class="dropdown-item" href="record.html">records</a></li>
+                </ul>
+              </li>
+              <li id="li-cate" class="nav-item">
+                <a class="nav-link" href="ranking.html">Ranking</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <h1 id="titre1">Dernier Événement</h1>
+        <div class="carousel-inner">
+          <div id="caritem" class="carousel-item active">
+            <img
+              src="./photo td4/Alex-Volkanovski-UFC.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-block  text-center mb-10 ">
+              <h1 class="h1-cards">UFC 325</h1>
+              <h2 class="h2-cards">
+                Alexander Volkanovski conservé sa ceinture des -66kg après avoir
+              battu le Brésilien Diego Lopessur décision unanime lors du main
+              event.
+              </h2>
+            </div>
+          </div>
+          <div id="caritem" class="carousel-item">
+            
+            
+            <img
+              src="photo td4/benoit-saint-denis-tko-dan-hooker-ufc.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block h-25 ">
+              <h1 class="h1-cards">UFC 325</h1>
+              <h2 class="h2-cards h-50">
+              Benoît Saint Denis remporte la guerre contre Dan Hooker avec un
+              TKO .
+              </h2>
+            </div>
+          </div>
+          <div id="caritem" class="carousel-item">
+            <img
+              src="./photo td4/mauricio-ruffy-tko-rafael-fiziev-ufc-1024x576.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-block h-25 ">
+              <h1 class="h1-cards">UFC 325</h1>
+              <h2 class="h2-cards">
+                Mauricio Ruffy détruit Rafael Fiziev dans un combat fou à l'UFC
+              325
+              </h2>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+        <h1 style="color: red; background-color: rgba(197, 197, 195, 0.635);" class="text-center">Autre Actu</h1>
+        <br>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./photo td4/aldo Cortes-Acosta.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cortes-Acosta</h5>
+              <p class="card-text">
+                Waldo Cortes-Acosta exige la création d'un titre intérimaire
+                pour débloquer la catégorie des poids lourds
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./photo td4/101_Kyoji_Horiguchi.0.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">UFC Fight Night 266</h5>
+              <p class="card-text">
+                Kyoji Horiguchi a l'ambition de devenir le premier champion
+                japonais de l'histoire | UFC Fight Night 266
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./photo td4/Pouya Rahmani.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pouya Rahmani</h5>
+              <p class="card-text">
+                révèle les coulisses de ses entraînements intensifs avec Khamzat
+                Chimaev et Ciryl Gane au Moyen-Orient
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="main-footer">
+        <h3>Contact</h3>
+        <div id="contact">
+            <a target="_blank"href="https://www.instagram.com/actumma/">
+                <img src="./photo p1/instagram.png" alt="logo insta">
+            </a>
+            <a target="_blank" href="https://x.com/actu_mma">
+                <img src="./photo p1/twitter.png" alt="logo twitter">
+            </a>
+            <a target="_blank" href="https://www.facebook.com/actummafrance/">
+                <img src="./photo p1/facebook.png" alt="logo facebook">
+            </a>
+            <a target="_blank" href="mailto:actumma@gmail.com">
+                <img src="./photo p1/email.png "alt="logo mail">
+            </a>
+           
+        </div>
+       
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
